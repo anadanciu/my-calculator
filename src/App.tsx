@@ -9,7 +9,9 @@ import "./App.scss";
 //import ScoreKeeper from "./05-score-keeper/ScoreKeeper";
 //import ToggleWindowEvent from "./06-add-window-event/ToggleWindowEvent";
 //import PixelArt from "./08-pixel-art/PixelArt";
-import SimpleCalculator from "./09-simple-calculator/SimpleCalculator";
+//import SimpleCalculator from "./09-simple-calculator/SimpleCalculator";
+import FocusInput from "./10-focus-input/FocusInput";
+import CatFriends from "./10-focus-input/RefWithCallback";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
       {/*<ToggleWindowEvent />*/}
       {/*<ColorPicker />*/}
       {/*<PixelArt />*/}
-      <SimpleCalculator />
+      {/* <SimpleCalculator /> */}
+      <FocusInput />
+      <CatFriends />
     </div>
   );
 }

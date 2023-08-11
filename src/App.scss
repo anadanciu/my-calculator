@@ -34,3 +34,19 @@
 .elem-border {
   border: 2px solid rgb(136, 62, 62);
 }
+
+.div {
+  width: 100%;
+  overflow: hidden;
+}
+
+ul,
+li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+li {
+  display: inline;
+  padding: 0.5rem;
+}
