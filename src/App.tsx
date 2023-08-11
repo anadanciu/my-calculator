@@ -8,7 +8,8 @@ import "./App.scss";
 //import DogPics from "./04-dog-pics/DogPics";
 //import ScoreKeeper from "./05-score-keeper/ScoreKeeper";
 //import ToggleWindowEvent from "./06-add-window-event/ToggleWindowEvent";
-import PixelArt from "./08-pixel-art/PixelArt";
+//import PixelArt from "./08-pixel-art/PixelArt";
+import SimpleCalculator from "./09-simple-calculator/SimpleCalculator";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/*<ScoreKeeper />*/}
       {/*<ToggleWindowEvent />*/}
       {/*<ColorPicker />*/}
-      <PixelArt />
+      {/*<PixelArt />*/}
+      <SimpleCalculator />
     </div>
   );
 }
