@@ -26,7 +26,7 @@ const SimpleCalculator = () => {
   function handleReset() {
     document
       .querySelectorAll(".elem-border")
-      .forEach((el) => el.classList.remove("elem-border"));
+      .forEach((el) => el.classList.remove("elem-border")); // check if the el has a class elem-border first
     dispatch({
       type: "reset",
     });
