@@ -41,11 +41,7 @@ export type Action = {
   };
 };
 
-interface Props {
-  handleAdd: () => void;
-}
-
-const ShoppingCart: React.FC<Props> = () => {
+const ShoppingCart: React.FC = () => {
   const cartItems: Product[] = [];
   let [results, dispatch] = useReducer(shoppingCartReducer, cartItems);
   let acc: number = 0;
