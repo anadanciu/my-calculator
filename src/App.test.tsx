@@ -59,7 +59,7 @@ it("renders ShoppingCart component and tests dispatches", () => {
 test("should call handleAddSpy callback", () => {
   const handleAddSpy = jest.fn();
 
-  const { getByTestId } = renderC(<ShoppingCart handleAdd={handleAddSpy} />);
+  const { getByTestId } = renderC(<ShoppingCart />);
 
   fireEvent.click(getByTestId("handleAdd"));
 
